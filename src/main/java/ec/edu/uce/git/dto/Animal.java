@@ -9,7 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Animal {
     private String firstName;
+
     private  int legs;
+
     private  String type;
 
 

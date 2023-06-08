@@ -14,7 +14,6 @@ public class GitApplication {
 		Test test = new Test();
 		Persona p = test.p;
 		Animal a = test.a;
-		
 		p.setFirstName(a.getFirstName());
 		a.setFirstName(p.getLastName());
 		System.out.println(p.toString());

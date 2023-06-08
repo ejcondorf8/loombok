@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Persona {
     public String firstName;
+
     private  String lastName;
+
     private  int age;
 }
